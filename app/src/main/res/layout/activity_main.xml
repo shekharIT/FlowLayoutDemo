@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chandra.chkumar.flowlayoutdemo.MainActivity">
+
+    <com.chandra.chkumar.flowlayoutdemo.TagContainerLayout
+        android:id="@+id/tagcontainerLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="10dp"
+        app:container_enable_drag="false"
+        app:horizontal_interval="10dp"
+        app:tag_clickable="false"
+        app:tag_enable_cross="false"
+        app:tag_theme="pure_teal"
+        app:vertical_interval="10dp" />
+
+</android.support.constraint.ConstraintLayout>
